@@ -1,0 +1,9 @@
+requests==2.20.1
+websockets==7.0
+http.server
+urllib.parse
+urllib
+sys
+os
+json
+simplejson
