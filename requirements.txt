@@ -1,8 +1,5 @@
 requests==2.20.1
 websockets==7.0
 simplejson==3.16.0
-urllib.parse==3.6.8
 urllib==3.6.8
-sys==3.6.8
-os==3.6.8
 json==3.6.8
