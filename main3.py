@@ -54,6 +54,10 @@ def run():
 
   print('starting server...')
   my_ip=str(requests.get('http://ip.42.pl/raw').text)
+  print(my_ip)
+  print(os.environ.get('port', None))
+  print(os.environ.get('dataCenter', None))
+  print(os.environ.get('apiKey', None))
   server_address = ('my_ip', int(float(os.environ.get('port', None))))
  
   httpd = HTTPServer(server_address, Handler)
