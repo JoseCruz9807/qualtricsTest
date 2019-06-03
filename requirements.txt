@@ -1,9 +1,9 @@
 requests==2.20.1
 websockets==7.0
-http.server==3.7.3
-urllib.parse==3.7.3
-urllib==3.7.3
-sys==3.7.3
-os==3.7.3
-json==3.7.3
+http.server==3.6.8
+urllib.parse==3.6.8
+urllib==3.6.8
+sys==3.6.8
+os==3.6.8
+json==3.6.8
 simplejson==3.16.1
