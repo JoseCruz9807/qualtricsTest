@@ -58,7 +58,7 @@ def run():
   print(os.environ.get('port', None))
   print(os.environ.get('dataCenter', None))
   print(os.environ.get('apiKey', None))
-  server_address = ('my_ip', int(float(os.environ.get('port', None))))
+  server_address = (my_ip, int(float(os.environ.get('port', None))))
  
   httpd = HTTPServer(server_address, Handler)
   print('running server...')
